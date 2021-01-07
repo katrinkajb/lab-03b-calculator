@@ -22,7 +22,7 @@ addButton.addEventListener('click', () => {
 
     const addTotal = addValue1 + addValue2;
     console.log(addTotal);
-    addResults.textContent = addTotal;
+    addResults.textContent = "The total is " + addTotal;
   })
 
 //   Subtract
@@ -49,7 +49,7 @@ subtractButton.addEventListener('click', () => {
 
     const subtractTotal = subtractValue1 - subtractValue2;
     // console.log(subtractTotal);
-    subtractResults.textContent = subtractTotal;
+    subtractResults.textContent = "The total is " + subtractTotal;
   })
 
 //   Multiply
@@ -76,7 +76,7 @@ multiplyButton.addEventListener('click', () => {
 
     const multiplyTotal = multiplyValue1 * multiplyValue2;
     // console.log(multiplyTotal);
-    multiplyResults.textContent = multiplyTotal;
+    multiplyResults.textContent = "The total is " + multiplyTotal;
   })
 
 //   Divide
@@ -103,5 +103,5 @@ divideButton.addEventListener('click', () => {
 
     const divideTotal = divideValue1 / divideValue2;
     // console.log(divideTotal);
-    divideResults.textContent = divideTotal;
+    divideResults.textContent = "The total is " + divideTotal;
   })

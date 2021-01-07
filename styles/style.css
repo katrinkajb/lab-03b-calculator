@@ -1,6 +1,5 @@
 
 body {
-* 
     --color1: hsla(45, 86%, 83%, 1);
     --color2: hsla(135, 65%, 98%, 1);
     --color3: hsla(315, 37%, 86%, 1);
@@ -13,6 +12,7 @@ body {
     
     font-family: 'Titillium Web', sans-serif;
     background-color: var(--color2);
+    background-image: url('https://www.spreadsheetweb.com/wp-content/uploads/2017/03/Integrating-Advanced-Calculations-into-HubSpot-using-SpreadsheetWEB-API-1080x675.jpg');
 }
 
 main {
@@ -21,7 +21,7 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
-    background-image: url('https://www.spreadsheetweb.com/wp-content/uploads/2017/03/Integrating-Advanced-Calculations-into-HubSpot-using-SpreadsheetWEB-API-1080x675.jpg');
+    margin-top: 100px;
 }
 
 section {
